@@ -92,19 +92,19 @@ header li {
 
 header a {
     display: block;
-    color: #3498db;
+    color: #8a34db;
     padding: 10px
 }
 
 header a:hover {
-    color: #217dbb;
+    color: #7d21bb;
     text-decoration: none;
     background: #eee;
     border-radius: 4px
 }
 
 header a:focus {
-    color: #3498db;
+    color: #8234db;
     text-decoration: none
 }
 
@@ -144,7 +144,7 @@ header.sticky {
     padding-right: 15px;
     padding-top: 10px;
     cursor: pointer;
-    color: #3498db
+    color: #9e34db
 }
 
 #mobile-menu-close span {
@@ -210,12 +210,12 @@ footer {
 }
 
 .social a:hover {
-    color: #3498db
+    color: #7c34db
 }
 
 .btn-rounded-blue {
     display: inline-block;
-    background-color: #0028b9;
+    background-color: #6f00b9;
     color: #f1f1f1;
     padding: 15px 25px;
     border: 3px solid #f1f1f1;
@@ -232,7 +232,7 @@ footer {
 }
 
 .btn-rounded-white:hover {
-    color: #3498db;
+    color: #9834db;
     background: #f1f1f1;
     text-decoration: none
 }
@@ -269,7 +269,7 @@ footer {
     left: 0;
     right: 0;
     margin: 0 auto;
-    background: #3498db
+    background: #9034db
 }
 
 .background-alt {
@@ -481,7 +481,7 @@ footer {
     color: #f1f1f1;
     width: 50px;
     height: 50px;
-    background: #3498db;
+    background: #9034db;
     border-radius: 50%;
     float: left;
     z-index: 99;
@@ -639,7 +639,7 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: #3498db;
+    background: #8234db;
     text-align: center
 }
 
@@ -692,7 +692,7 @@ footer {
 #contact-form input:focus,
 #contact-form textarea:focus {
     outline: none;
-    background: #16527a
+    background: #52167a
 }
 
 #contact-form textarea {
