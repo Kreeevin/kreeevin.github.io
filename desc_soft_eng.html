@@ -25,27 +25,25 @@
         </div>
         <ul id="menu" class="shadow">
             <li>
-                <a href="index.html">UI Design</a>
+                <a href="index.html">Software Engineering</a>
             </li>
             <li>
-                <a href="#education">Education</a>
+                <a href="#education">Version Control</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
+                <a href="#projects">Design Patterns</a>
             </li>
             <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
+                <a href="#skills">Key Takeaways</a>
             </li>
         </ul>
     </header>
     <!-- End header -->
 
-    <div id="lead" class = "Engine-top">
+    <div id="lead" class = "SoftEng-top">
         <div id="lead-content">
-            <h1>Jet Engine Control Design <br> </h1>
+            <h1>Brigham and Woman's Hospital Kiosk App<br> </h1>
+            <a href="https://github.com/Kreeevin/Soft-Eng-Hospital-App" class="btn-rounded-blue">View Repository</a>
             <a href="index.html" class="btn-rounded-white">Return Home</a>
         </div>
         <!-- End #lead-content -->
@@ -64,62 +62,77 @@
     <div id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-2">
-                    <h2 class="heading">Electrical Wiring and Design</h2>
-                </div>
-                <div>
-
-                </div>
                 <div class="col-md-4">
                     <p>
-                       During the second semester of my Sophmore Year I started working with the Jet Engine branch of the WPI AIAA club. I designed the first version of the control box for the engine and am currently working with the club to revamp and improve the control systems to be both safer and more reliable.
-                       Along with this I did the inital Estop and sensor wiring for the engine, along with debugging when errors came up during testing.
-                </div>
-                <div class="col-md-4">
-                    <video controls width="300">
-                        <source src="images\Estop.mp4" type="video/mp4" />
-                    </video>
-                   
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2">
-                    <h2 class="heading">New Control System</h2>
-                </div>
-                <div>
-
-                </div>
-                <div class="col-md-4">
-                    <p>
-                        My current proposed design will have 3 seperate safety mechanisms, two soft stops and one hard Emergency Stop. The control signal is generated from an Arduino which will allow us to replace the FlySki RC flight controller we are currently using. 
-                        I also intend to look into the data termainal that we currently use for RPM reading from the engine and attempt to replace the terminal with the Arduino for real time display of engine data on the control box.                    </p>
-                </div>
-                <div class="col-md-4">
-                    <img src="images\terminal-1.jpg" width="550">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2">
-                    <h2 class="heading">Data Collection</h2>
-                </div>
-                <div>
-
-                </div>
-                <div class="col-md-4">
-                    <p>
-                        The next step in the elctronics and sensor design for the engine is to develop our data collection with a Raspberry Pi Zero on the test stand. This will be used to read engine RPM, load cells and pitot tubes to record and display that data in real time.
-                        I am also considering the possiblity in having it host a webserver for remote viewing of the data.
+                       During D-term of Sophmore Year, I took WPI's CS 3733 Software Engineering class. The class has a notorious reputation as one of the hardest classes at the school, due to the large team size and its very short iteration cycles. 
+                       Through two prototypes and four iterations, each developed during week-long agile sprints, I was forced to learn how to manage a team of 11 developers as the team's Lead Software Engineer.
+                       Our resulting app used Java, with JavaFX for the UI/UX interactions, and SQL (including a AWS-hosted server) on the back end.
                     </p>
                 </div>
                 <div class="col-md-4">
-                    
-                </div>
-                <!-- <div class="col-md-4">
-                    <video controls width="300">
-                        <source src="images\Estop.mp4" type="video/mp4" />
-                    </video>
+                    <image src="images\soft-eng-team.jpg" />
                    
-                </div> -->
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <h2 class="heading">Version Control</h2>
+                    </div>
+                    <div>
+    
+                    </div>
+                    <div class="col-md-4">
+                        <p>
+                            To manage a team of 11 people, it was important we chose the right tools for the job. We used Github for software version control, used Jira for User Stories and a Kanban board, and used Figma for UI Mockups before they were created in our Java Application.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images\soft-eng-jira.jpg" width="550">
+                    </div>
+                    <div class="col-md-4">
+                        <image src="images\soft-eng-figma.jpg" width="550" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                
+                <div class="col-md-2">
+                    <h2 class="heading">Design Patterns</h2>
+                </div>
+                <div>
+
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        One of the most important takeaways from this class was the utility of Design Patterns. The most prevalent ones for this project were ORMs, DAOs, and the Facade patterns. 
+                        These three together managed all interactions with the SQL Database. 
+                        The ORM objects mapped to the individual rows of a given table, the DAOs managed all communication with those tables, and the Facade hid all of those interactions behind a singular Singleton so that the rest of the program did not need to know anything about the database beyond what it needed to give/get from it.
+                    </p>
+                </div>
+                
+                <div class="col-md-4">
+                    <image src="images\soft-eng-class-diagram.jpg" width="550" />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    <h2 class="heading">What I Learned</h2>
+                </div>
+                <div>
+
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        The class being so work intensive meant that there was a lot to learn. For sure the hardest part of the class was managing splitting all the work between the 11 of us, but once we got comfortable with the pacing of the Sprints, we stopped having to grind on the last day 
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <video controls width="300">
+                        <source src="images\soft-eng-trailer.mp4" type="video/mp4" />
+                    </video>
+                </div>
             </div>
         </div>
     </div>
@@ -145,7 +158,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+                        Copyright &copy; <span id="current-year">2023</span> Kevin Siegall
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -156,13 +169,13 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/somguynamedseb" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/kreeevin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <!-- <li>
                             <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
                         </li> -->
                         <li>
-                            <a href="www.linkedin.com/in/sebastian-baldini" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="www.linkedin.com/in/kevin-siegall" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         <!-- <li>
                             <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
