@@ -279,14 +279,20 @@ footer {
 .homepage-top{
      background: url(../images/family-background.jpg);
 }
-.Engine-top{
+/* .Engine-top{
     background: url(../images/backblast.png);
 }
 .Nitinol-top{
     background: url(../images/lead-bg.jpg);
+} */
+.SoftEng-top{
+    background: url(../images/soft-eng-team.jpg);
 }
 .RBE3001-top{
-    background: url(../images/overview_irl.jpg);
+    background: url(../images/rbe3001-live-track.jpg);
+}
+.VexU-top{
+    background: url(../images/vex-u-icon.jpg);
 }
 #lead {
     position: relative;
