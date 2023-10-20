@@ -31,10 +31,7 @@
                 <a href="#about">About</a>
             </li>
             <li>
-                <a href="#version-control">Version Control</a>
-            </li>
-            <li>
-                <a href="#design-patterns">Design Patterns</a>
+                <a href="#approach">Our Approach</a>
             </li>
             <li>
                 <a href="#takeaways">Key Takeaways</a>
@@ -88,18 +85,24 @@
     </div>
     <!-- End #about -->
 
-    <div id="version-control">
+    <div id="approach">
         <div class="container">
             <div class="row">
                 <div class="row">
                     <div class="col-md-2">
-                        <h2 class="heading">Version Control</h2>
+                        <h2 class="heading">Our Approach</h2>
                     </div>
                     <div>
                     </div>
                     <div class="col-md-4">
                         <p>
                             To manage a team of 11 people, it was important we chose the right tools for the job. We used Github for software version control, used Jira for User Stories and a Kanban board, and used Figma for UI Mockups before they were created in our Java Application.
+
+                            <br>
+
+                            One of the most important takeaways from this class was the utility of Design Patterns. The most prevalent ones for this project were ORMs, DAOs, and the Facade patterns. 
+                            These three together managed all interactions with the SQL Database. 
+                            The ORM objects mapped to the individual rows of a given table, the DAOs managed all communication with those tables, and the Facade hid all of those interactions behind a singular Singleton so that the rest of the program did not need to know anything about the database beyond what it needed to give/get from it.
                         </p>
                     </div>
                     <div class="col-md-4">
@@ -114,33 +117,7 @@
            
         </div>
     </div>
-    <!-- End #version-control -->
-
-
-    <div id="design-patterns">
-        <div class="container">
-            <div class="row">
-                <div class="row">
-                    <div class="col-md-2">
-                        <h2 class="heading">Design Patterns</h2>
-                    </div>
-                    <div>
-                    </div>
-                    <div class="col-md-4">
-                        <p>
-                            One of the most important takeaways from this class was the utility of Design Patterns. The most prevalent ones for this project were ORMs, DAOs, and the Facade patterns. 
-                            These three together managed all interactions with the SQL Database. 
-                            The ORM objects mapped to the individual rows of a given table, the DAOs managed all communication with those tables, and the Facade hid all of those interactions behind a singular Singleton so that the rest of the program did not need to know anything about the database beyond what it needed to give/get from it.
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <image src="images\soft-eng-class-diagram.jpg" width="550" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #design-patterns -->
+    <!-- End #approach -->
 
     
     <div id="takeaways">
@@ -166,7 +143,7 @@
             </div>
         </div>
     </div>
-    <!-- End #design-patterns -->
+    <!-- End #takeaways -->
     
     <div id="contact">
         <h2>Get in Touch</h2>
