@@ -34,19 +34,19 @@
 */
 
 // Define base and accent colors
-$base-color: #992ddd;
+$base-color: #7C47AE;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
 $background: #f1f1f1;
-$background-alt: #fbf9fd;
+$background-alt: #B89BD4;
 
 // Define border colors
-$border: #dcd9d9;
+$border: #707070;
 
 // Define text colors
-$heading: #374054;
-$text: #74808a;
+$heading: #707070;
+$text: #f1f1f1;
 
 /*
     ---------------------
@@ -114,7 +114,7 @@ body {
             h4 {
                 font-size: 1.2em;
                 font-weight: 300;
-                color: #7e8890;
+                color: #707070;
                 margin: 0 0 15px 0;
             }
 
@@ -174,7 +174,7 @@ header {
         &:hover {
             color: $base-color-hover;
             text-decoration: none;
-            background: #e1e1e1;
+            background: #B89BD4;
             border-radius: 4px;
         }
 
@@ -294,25 +294,25 @@ footer {
 
 .btn-rounded-white {
     display: inline-block;
-    color: #fff;
+    color: #f1f1f1;
     padding: 15px 25px;
-    border: 3px solid #fff;
+    border: 3px solid #f1f1f1;
     border-radius: 30px;
     @include transition();
 
     &:hover {
         color: $base-color;
-        background: #fff;
+        background: #f1f1f1;
         text-decoration: none;
     }
 }
 
 .shadow {
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0x1f,0x1f,0x1f,0.12), 0 1px 2px rgba(0x1f,0x1f,0x1f,0.24);
 }
 
 .shadow-large {
-    box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 6px rgba(0x1f,0x1f,0x1f,0.08), 0 3px 6px rgba(0x1f,0x1f,0x1f,0.15);
 }
 .top { z-index: 99  !important;}  
 .heading {
@@ -379,7 +379,7 @@ footer {
     }
 
     h1 {
-        color: #fff;
+        color: #f1f1f1;
         font-weight: 900;
         font-size: 5em;
         text-transform: uppercase;
@@ -517,8 +517,8 @@ footer {
 
 .vtimeline-content {
     margin-left: 350px;
-    background: #fff;
-    border: 1px solid #e6e6e6;
+    background: #f1f1f1;
+    border: 1px solid $background-alt;
     padding: 15px;
     border-radius: 3px;
     text-align: left;
@@ -554,7 +554,7 @@ footer {
 
 .vtimeline-icon {
     position: relative;
-    color: #fff;
+    color: $background;
     width: 50px;
     height: 50px;
     background: $base-color;
@@ -577,7 +577,7 @@ footer {
     left: 0;
     top: 10px;
     font-weight: 300;
-    color: #374054;
+    color: $heading;
 }
 
 /*
@@ -656,7 +656,7 @@ footer {
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
-    background: #fff;
+    background: #f1f1f1;
     border-radius: 4px;
 }
 
@@ -745,7 +745,7 @@ footer {
 
     h2 {
         margin: 0 0 15px 0;
-        color: #fff;
+        color: #f1f1f1;
         font-weight: 500;
     }
 }
@@ -762,10 +762,10 @@ footer {
         border: none;
         margin-bottom: 10px;
         background: darken($base-color, 15%);
-        color: #fff;
+        color: $background;
         @include transition();
         @include placeholder {
-            color: #fff;
+            color: $background;
         }
 
         &:focus {
@@ -782,17 +782,17 @@ footer {
     button {
         display: block;
         width: 100%;
-        background: #fff;
+        background: $background;
         border-radius: 4px;
         padding: 5px 10px;
         border: none;
         color: $base-color;
         font-weight: 700;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        box-shadow: 0 1px 3px rgba(0x1f,0x1f,0x1f,0.12), 0 1px 2px rgba(0x1f,0x1f,0x1f,0.24);
         @include transition();
 
         &:hover {
-            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            box-shadow: 0 10px 20px rgba(0x1f,0x1f,0x1f,0.19), 0 6px 6px rgba(0x1f,0x1f,0x1f,0.23);
         }
     }
 }
@@ -818,7 +818,7 @@ footer {
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid $border;
-    background: #fff;
+    background: $background;
     text-align: left;
 
     h3 {
